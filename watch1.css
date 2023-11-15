@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.entire{
+    width: 900px;
+    height: 1000px;
+    background-color: white;
+    margin-left: 200px;
+}
+.entiretop{
+    background-image: url(image/back1.jpg);
+    filter: brightness(62.57%);
+    width: 900px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    margin-left: 100px;
+}
+.top ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left:50px;
+}
+.top ul li a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+.image{
+    margin-top: 20px;
+}
+.maintop{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.maintop img{
+    height: 250px;
+}
+.note{
+    color: white;
+}
+h1{
+    font-size: 40px;
+}
+.note p{
+    font-size: 10px;
+    margin-top: 50px;
+    line-height: 40px;
+}
+.shop{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(46, 46, 97);
+    padding: 10px 15px 10px 15px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.link ul li{
+    list-style: none;
+}
+.link ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+    line-height: 30px;
+    font-size: 10px;
+}
+.browse1{
+    padding-top: 70px;
+    /* margin-top: 50px; */
+    text-align: center;
+}
+.image1{
+    max-width: 700px;
+    column-count: 3;
+    margin-top: 30px;
+    margin-left: 100px;
+    column-gap: 15px;
+}
+.image1 ul li img{
+    width: 220px;
+    height: 220px;
+}
+.image1 ul li{
+    list-style: none;
+}
+.georg1{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.span1{
+    margin-right: 4px;
+}
